@@ -19,3 +19,9 @@ O código cria um sistema para alternar entre modo claro e modo escuro no site. 
 
     [✅] 4. Animação do Título
 O código cria uma animação no título "CODEMASTER", onde o texto aparece letra por letra e depois começa a apagar, repetindo esse efeito continuamente. Durante a animação, a cor do título alterna entre a cor padrão do tema (preto no modo claro ou branco no modo escuro) e laranja. Além disso, a função updateTextColor() ajusta a cor do texto de acordo com o tema claro ou escuro, e a animação começa quando a página termina de carregar.
+
+    [✅] 5. Animação da Seção Home
+O código aplica animações nas seções do site, deixando elas invisíveis no início e definindo uma transição suave. Dependendo da posição da seção, ela recebe um efeito diferente, como descer, diminuir de tamanho ou girar, criando uma animação quando aparecer na página.
+
+    [✅] 6. Animação das Seções
+O código cria animações nas seções do site quando o usuário rola a página. No início, todas as seções ficam invisíveis (opacity 0) e com transformações diferentes. Quando a seção aparece na tela, o IntersectionObserver detecta isso e faz a seção aparecer suavemente, voltando ao tamanho e posição normal.
