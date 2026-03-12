@@ -176,7 +176,7 @@ function showSlide(slideInex) {
 // Função para atualizar a posição do carrossel
 function updateSlidePosition() {
     const slideWidth = slides[0].offsetWidth;
-    carouselSlides.style.transform = ´translateX(-${currenntSlide * slideWidth}px)´;
+    carouselSlides.style.transform = ´translateX(-${currenntSlide * slideWidth}px)`;
 }
 
 // Função para avançar para o próximo slide
@@ -220,3 +220,6 @@ carouselSlides.parentElement.addEventListener('mouseenter', () => {
 
 // Retoma a transição automática ao remover o mouse do carrosel
 carouselSlides.parentElement.addEventListener('mouseleave' startAutoSlide);
+
+// ================= FORMULÁRIO DE CONTATO ================
+// Seleciona o formulário de contato 
