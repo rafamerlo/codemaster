@@ -25,3 +25,6 @@ O código aplica animações nas seções do site, deixando elas invisíveis no 
 
     [✅] 6. Animação das Seções
 O código cria animações nas seções do site quando o usuário rola a página. No início, todas as seções ficam invisíveis (opacity 0) e com transformações diferentes. Quando a seção aparece na tela, o IntersectionObserver detecta isso e faz a seção aparecer suavemente, voltando ao tamanho e posição normal.
+
+    [✅] 7. Botão de voltar ao topo
+O código cria um carrossel de slides no site. Ele controla qual slide está sendo exibido, permitindo avançar ou voltar usando botões. Também existe uma troca automática de slides, que reinicia quando o usuário interage. Além disso, quando o mouse passa sobre o carrossel, a troca automática pausa e volta a funcionar quando o mouse sai.
