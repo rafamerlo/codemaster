@@ -28,3 +28,6 @@ O código cria animações nas seções do site quando o usuário rola a página
 
     [✅] 7. Botão de voltar ao topo
 O código cria um carrossel de slides no site. Ele controla qual slide está sendo exibido, permitindo avançar ou voltar usando botões. Também existe uma troca automática de slides, que reinicia quando o usuário interage. Além disso, quando o mouse passa sobre o carrossel, a troca automática pausa e volta a funcionar quando o mouse sai.
+
+    [✅] 8. Formulário de Contato
+O código controla o envio do formulário de contato. Quando o usuário envia o formulário, o envio padrão é bloqueado e aparece uma mensagem de agradecimento. Os dados são enviados usando Fetch API, e se o envio der certo a página recarrega após 2 segundos; se der erro, aparece uma mensagem avisando o usuário.
