@@ -31,3 +31,6 @@ O código cria um carrossel de slides no site. Ele controla qual slide está sen
 
     [✅] 8. Formulário de Contato
 O código controla o envio do formulário de contato. Quando o usuário envia o formulário, o envio padrão é bloqueado e aparece uma mensagem de agradecimento. Os dados são enviados usando Fetch API, e se o envio der certo a página recarrega após 2 segundos; se der erro, aparece uma mensagem avisando o usuário.
+
+    [✅] 9. Seção "SOBRE MIM"
+O código cria uma animação na seção “Sobre Mim”. Ele verifica quando essa seção aparece na tela durante o scroll da página e, quando isso acontece, adiciona a classe visible para ativar a animação. Depois que a animação acontece, o evento de scroll é removido para evitar verificações desnecessárias.
